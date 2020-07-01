@@ -1,0 +1,61 @@
+{
+    "plugins": [
+        "github",
+        "edit-link",
+        "hide-element",
+        "splitter",
+        "insert-logo",
+        "custom-favicon",
+        "pageview-count",
+        "tbfed-pagefooter",
+        "-sharing", "sharing-plus"
+    ],
+    "pluginsConfig": {
+        "favicon": "favicon.ico",
+        "github": {
+            "url": "https://github.com/YUbuntu0109/leetcode-googtech"
+        },
+        "edit-link": {
+            "base": "//github.com/YUbuntu0109/leetcode-googtech/edit/master/docs",
+            "label": "edit"
+        },
+        "hide-element": {
+            "elements": [".gitbook-link"]
+        },
+        "insert-logo": {
+            "url": "https://yubuntu0109.github.io/2020/06/21/image-repo/leetcode-googtech-logo.PNG",
+            "style": "background: none; max-height: 45px; min-height: 30px"
+        },
+        "tbfed-pagefooter": {
+            "copyright":"Copyright &copy 黄宇辉 2020",
+            "modify_label": "笔记的最近一次更新时间为 : ",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "sharing": {
+            "douban": false,
+            "facebook": true,
+            "google": true,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": true,
+            "messenger": false,
+            "pocket": false,
+            "qzone": false,
+            "stumbleupon": false,
+            "twitter": true,
+            "viber": false,
+            "vk": false,
+            "whatsapp": false,
+            "weibo": true,
+            "qq": true,
+         "all": [
+            "douban", "facebook", "google", "hatenaBookmark", 
+            "instapaper", "linkedin","twitter", "weibo", 
+            "messenger","qq", "qzone","viber","vk","weibo",
+            "pocket", "stumbleupon","whatsapp"
+          ]
+      }
+
+    }
+}
