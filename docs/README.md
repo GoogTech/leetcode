@@ -3,9 +3,7 @@
 
 <p align="center">
     <img src="https://yubuntu0109.github.io/2020/06/21/image-repo/wechat-GoogTech.png" width="360">
-</p>
-
-<p align="center">
+    </br>
     <img src="https://img.shields.io/github/commit-activity/m/YUbuntu0109/leetcode-googtech?color=ff69b4"></img>
     <img src="https://img.shields.io/github/license/YUbuntu0109/leetcode-googtech.svg"></img>
     <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
