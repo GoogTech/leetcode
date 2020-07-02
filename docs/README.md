@@ -16,6 +16,6 @@
 </p>
 
 <!-- 记得设计贡献方案后修改 href -->
-<p style="text-align:center;font-size:21px;">
+<!-- <p style="text-align:center;font-size:21px;">
     <a href="https://ishacker.net/about/">✋ Hey bro let's make the algorithm to understand easily</a>
-</p>
+</p> -->
