@@ -1,13 +1,19 @@
 {
     "plugins": [
+        "code",
         "github",
+        "-lunr", 
+        "-search", 
+        "search-pro",
         "edit-link",
         "hide-element",
         "splitter",
         "insert-logo",
+        "chapter-fold",
         "custom-favicon",
         "pageview-count",
         "tbfed-pagefooter",
+        "back-to-top-button",
         "-sharing", "sharing-plus"
     ],
     "pluginsConfig": {
