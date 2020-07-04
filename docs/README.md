@@ -23,6 +23,7 @@
 
 
 <!-- How To Use Gitalk : https://www.cnblogs.com/snowdreams1006/p/10662585.html -->
+<!-- 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
 <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 <div id="gitalk-container"></div>
@@ -37,4 +38,5 @@ var gitalk = new Gitalk({
   "distractionFreeMode": false  
 });
 gitalk.render("gitalk-container");
-</script>
+</script> 
+-->
