@@ -26,6 +26,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
 <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 <div id="gitalk-container"></div>
+<script>
 var gitalk = new Gitalk({
   "clientID": "7b81f4981d72316f2823",
   "clientSecret": "1cbc5a2846555c27b6f22f47ee47f5715aec87e3",
@@ -36,3 +37,4 @@ var gitalk = new Gitalk({
   "distractionFreeMode": false  
 });
 gitalk.render("gitalk-container");
+</script>
