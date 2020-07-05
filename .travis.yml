@@ -21,9 +21,9 @@ script:
 after_script:
   - cd _book
   - git init
-  - git config user.name "yubuntu0109"
-  - git config user.email "Gentleman_0109@outlook.com"
-  # - git remote add origin https://${REF}
+  - git remote add origin https://${GH_REF}
+  # - git config user.name "yubuntu0109"
+  # - git config user.email "Gentleman_0109@outlook.com"
   - git add .
   - git commit -m ":rocket:Updated By Travis-CI With Build $TRAVIS_BUILD_NUMBER For Github Pages"
   - git push --force --quiet "https://${LEETCODE-GOOGTECH-TOKEN}@${GH_REF}" master:gh-pages
