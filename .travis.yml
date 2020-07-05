@@ -21,8 +21,8 @@ script:
 after_script:
   - cd _book
   - git init
-  - git config user.name "yubuntu0109"
-  - git config user.email "gentleman_0109@outlook.com"
+  # - git config user.name "yubuntu0109"
+  # - git config user.email "gentleman_0109@outlook.com"
   - git remote add origin https://${REF}
   - git add .
   - git commit -m ":rocket:Updated By Travis-CI With Build $TRAVIS_BUILD_NUMBER For Github Pages"
