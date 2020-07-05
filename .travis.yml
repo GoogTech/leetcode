@@ -35,3 +35,9 @@ branches:
 env:
   global:
     - GH_REF: github.com/YUbuntu0109/leetcode-googtech.git # 设置 github 地址
+
+#
+# $ git push --force --quiet "https://${LEETCODE-GOOGTECH-TOKEN}@${GH_REF}" master:gh-pages
+# remote: Invalid username or password.
+# fatal: Authentication failed for 'https://GOOGTECH-TOKEN@github.com/YUbuntu0109/leetcode-googtech.git/'
+#
