@@ -26,7 +26,7 @@ after_script:
   # - git config user.email "Gentleman_0109@outlook.com"
   - git add .
   - git commit -m ":rocket:Updated By Travis-CI With Build $TRAVIS_BUILD_NUMBER For Github Pages"
-  - git push --force --quiet "https://${LEETCODE-GOOGTECH-TOKEN}@${GH_REF}" master:gh-pages
+  - git push --force --quiet "https://${GOOGTECH_TOKEN}@${GH_REF}" master:gh-pages
 
 branches:
   only:
@@ -35,9 +35,3 @@ branches:
 env:
   global:
     - GH_REF: github.com/YUbuntu0109/leetcode-googtech.git # 设置 github 地址
-
-#
-# $ git push --force --quiet "https://${LEETCODE-GOOGTECH-TOKEN}@${GH_REF}" master:gh-pages
-# remote: Invalid username or password.
-# fatal: Authentication failed for 'https://GOOGTECH-TOKEN@github.com/YUbuntu0109/leetcode-googtech.git/'
-#
