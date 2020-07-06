@@ -35,3 +35,17 @@ branches:
 env:
   global:
     - GH_REF: github.com/YUbuntu0109/leetcode-googtech.git # 设置 github 地址
+
+
+#---------------------------------------------------------------------------------------------------------
+# 参考博文如下所示 : 
+# <Travis CI持续集成 GitHub 个人博客> : https://www.jianshu.com/p/9d056d5ba78e
+# <使用 travis + gitbook + github pages 优雅地发布自己的书> : https://segmentfault.com/a/1190000018002602
+#
+#
+# 注意 GOOGTECH_TOKEN 的命令规范，如果含有特殊字符需要加入转字符哟( 符号 "_" 不是特殊字符 )
+# 否则 Travis 控制台会抛出如下异常信息( 符号 "-" 属于特殊字符哟 ) : 
+# $ git push --force --quiet "https://${LEETCODE-GOOGTECH-TOKEN}@${GH_REF}" master:gh-pages
+# remote: Invalid username or password.
+# fatal: Authentication failed for 'https://GOOGTECH-TOKEN@github.com/YUbuntu0109/leetcode-googtech.git/'
+#---------------------------------------------------------------------------------------------------------
