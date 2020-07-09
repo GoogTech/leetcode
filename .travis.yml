@@ -16,6 +16,7 @@ install:
 
 script:
   - cd docs # into /docs folder
+  - gitbook install # install plugins
   - gitbook build
 
 after_script:
