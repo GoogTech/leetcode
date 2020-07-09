@@ -2,8 +2,9 @@
     "plugins": [
         "code",
         "github",
-        "prism",
-        "-highlight",
+        "-highlight", 
+        "prism", 
+        "prism-themes",
         "-lunr", 
         "-search", 
         "search-pro",
@@ -41,7 +42,7 @@
         },
         "prism": {
             "css": [
-                "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
+              "prismjs/themes/prism-solarizedlight.css"
             ]
         },
         "sharing": {
