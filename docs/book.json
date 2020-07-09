@@ -2,6 +2,9 @@
     "plugins": [
         "code",
         "github",
+        "-highlight", 
+        "prism", 
+        "prism-themes",
         "-lunr", 
         "-search", 
         "search-pro",
@@ -36,6 +39,11 @@
             "copyright":"Copyright &copy 黄宇辉 2020",
             "modify_label": "笔记的最近一次更新时间为 : ",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "prism": {
+            "css": [
+              "prismjs/themes/prism-solarizedlight.css"
+            ]
         },
         "sharing": {
             "douban": false,
