@@ -60,5 +60,6 @@
         "createHeader": true,
         "useWorker": false,
         "designAddHead": false
-    }
+    },
+    "python.formatting.provider": "yapf"
 }
