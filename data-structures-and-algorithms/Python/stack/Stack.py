@@ -85,6 +85,24 @@ class MatchBrace:
             return True
         else:
             return False
+    
+    '''
+    @description: 将十进制转换为任意进制数
+    @param {int,int} 
+    @return: 
+    '''
+    def baseConverter(self,decNumber,base):
+        digits = "0123456789ABCDEF"
+        remstack = Stack()
+        while decNumber > 0:
+            rem = decNumber % base # 9,14
+            remstack.push(rem)
+            decNumber = decNumber // base # 14, 0
+        newString  = ""
+        while not remstack.isEmpty():
+            print(remstack.pop())
+            newString = newString + digits[remstack.pop()] # 14->E, 9->9
+        return newString
 
 
 '''
@@ -95,3 +113,4 @@ print(mb.parChecker("(((((((((())))))))))")) # True
 print(mb.parChecker("(((((((((()))))))))")) # False: 少个 ")"
 print(mb.parCheckerPlus("(({{[[<<>>]]}}))")) # True
 print(mb.parCheckerPlus("(({{[[<<<>>]]}}))")) # False: 少个 ">"
+print(mb.baseConverter(233,16)) # 将十进制 233 转换为十六进制的结果为: E9
