@@ -4,6 +4,9 @@
 <p align="center">
     <img src="https://yubuntu0109.github.io/2020/06/21/image-repo/wechat-GoogTech.png" width="360">
     </br>
+    <a href="https://www.codacy.com/manual/gentleman_0109/leetcode-googtech?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=YUbuntu0109/leetcode-googtech&amp;utm_campaign=Badge_Grade">
+        <img src="https://app.codacy.com/project/badge/Grade/4d3b1197a1ff458dab972933dcf0a857"/>
+    </a>
     <a rel="travis-ci" href="https://travis-ci.com/github/YUbuntu0109/leetcode-googtech">
 	    <img src="https://travis-ci.com/YUbuntu0109/leetcode-googtech.svg?branch=master"></img>
     </a>
@@ -14,8 +17,6 @@
     </a>
     <img src="https://img.shields.io/github/repo-size/YUbuntu0109/leetcode-googtech"></img>
     <img src="https://img.shields.io/github/stars/YUbuntu0109/leetcode-googtech.svg"></img>
-    <img src="https://img.shields.io/github/forks/YUbuntu0109/leetcode-googtech.svg"></img>
-    <img src="https://img.shields.io/github/watchers/YUbuntu0109/leetcode-googtech.svg"></img>
 </p>
 
 
