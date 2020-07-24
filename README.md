@@ -1,3 +1,6 @@
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/63237ff0135c496ea630a55eada1af69)](https://app.codacy.com/manual/gentleman_0109/leetcode-googtech?utm_source=github.com&utm_medium=referral&utm_content=YUbuntu0109/leetcode-googtech&utm_campaign=Badge_Grade_Dashboard)
+
 <p align="center">
 	<a href="http://algorithm.show/"><img src="https://yubuntu0109.github.io/2020/06/21/image-repo/leetcode-googtech-logo.PNG" width="360"></a>
 
