@@ -17,8 +17,6 @@
     </a>
     <img src="https://img.shields.io/github/repo-size/YUbuntu0109/leetcode-googtech"></img>
     <img src="https://img.shields.io/github/stars/YUbuntu0109/leetcode-googtech.svg"></img>
-    <img src="https://img.shields.io/github/forks/YUbuntu0109/leetcode-googtech.svg"></img>
-    <img src="https://img.shields.io/github/watchers/YUbuntu0109/leetcode-googtech.svg"></img>
 </p>
 
 <!-- 记得设计贡献方案后修改 href -->
