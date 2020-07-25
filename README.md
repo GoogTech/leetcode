@@ -23,7 +23,7 @@
 <p align="center">
     <a style="font-size:30px" href="https://space.bilibili.com/364361791/channel/detail?cid=141283">
         😎 大三狗带你从零开始刷LeetCode !
-        <img src="https://yubuntu0109.github.io/2020/06/21/image-repo/cover-of-leetcode-vlog.jpg">
+        <img src="https://yubuntu0109.github.io/2020/06/21/image-repo/cover-of-leetcode-vlog.png">
     </a>
 </p>
 
