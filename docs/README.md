@@ -19,7 +19,7 @@
     <img src="https://img.shields.io/github/stars/YUbuntu0109/leetcode-googtech.svg"></img>
 </p>
 
-</br>
+
 <p align="center">
     <a style="font-size:30px" href="https://space.bilibili.com/364361791/channel/detail?cid=141283">
         😎 大三狗带你从零开始刷LeetCode !
