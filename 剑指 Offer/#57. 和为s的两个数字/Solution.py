@@ -1,0 +1,37 @@
+'''
+Author: Goog Tech
+Date: 2020-08-04 15:28:26
+LastEditTime: 2020-08-04 15:34:24
+Description: https://leetcode-cn.com/problems/he-wei-sde-liang-ge-shu-zi-lcof/
+FilePath: \leetcode-googtech\剑指 Offer\#57. 和为s的两个数字\Solution.py
+'''
+
+class Solution(object):
+    '''
+    双指针法
+    
+    1. 初始化双指针,使其分别指向数组的左右两端
+    2. 遍历数组元素,当双指针相遇时终止循环
+        a. 计算 total = nums[left] + nums[right]
+        b. 若 total > target,则指针right向左移动
+        c. 若 total < target,则指针left向右移动
+        d. 若 total = target,则立即返回结果数组[nums[left], nums[right]] 
+    '''
+    def twoSum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+        # 初始化双指针,分别指向数组的左右两端
+        left, right = 0, len(nums) - 1
+        # 通过移动头或尾指针来循环遍历数组元素
+        while left < right:
+            total = nums[left] + nums[right]
+            if total == target:
+                return [nums[left], nums[right]]  # 返回结果数组
+            elif total > target:
+                right -= 1  # 右指针左移
+            else:
+                left += 1  # 左指针右移
+        return []  # 无结果
