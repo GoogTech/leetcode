@@ -1,6 +1,12 @@
 {
     "fileheader.customMade": {
-    
+        // 头部注释默认字段
+        "Author": "Goog Tech",
+        "Date": "Do not edit", // 设置后默认设置文件生成时间
+        "LastEditTime": "Do not edit", // 设置后，保存文件更改默认更新最后编辑时间
+        "Description": "",
+        "FilePath": "Do not edit", // 设置后，默认生成文件相对于项目的路径
+        "WebSite": "https://algorithm.show/",
     },
     "fileheader.configObj": {
     
