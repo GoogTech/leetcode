@@ -1,0 +1,42 @@
+/*
+ * @Author: Goog Tech
+ * @Date: 2020-08-15 11:46:02
+ * @LastEditTime: 2020-08-15 11:58:35
+ * @Description: https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/
+ * @FilePath: \leetcode-googtech\#1221. Split a String in Balanced Strings\Solution.java
+ * @WebSite: https://algorithm.show/
+ */
+
+/*
+ * @lc app=leetcode.cn id=1221 lang=java
+ *
+ * [1221] 分割平衡字符串
+ */
+
+// @lc code=start
+class Solution {
+
+    // 利用栈
+    public int balancedStringSplit(String s) {
+        int result = 0;
+        // 初始化辅助栈
+        Stack<Character> stack = new Stack<>();
+        // 遍历栈中字符串中的字符
+        for(int i = 0; i < s.length(); i++) {
+            char ch = s.charAt(i);
+            // 若栈中无元素或栈顶字符与当前字符一致时,则将当前字符入栈,反之出栈
+            if(stack.isEmpty() || ch == stack.peek()) {
+                stack.push(ch);
+            }else {
+                stack.pop();
+            }
+            // 检查当前栈是否为空,若为空则平衡次数加一
+            if(stack.isEmpty()) {
+                result++;
+            }
+        }
+        // 返回结果
+        return result;
+    }
+}
+// @lc code=end
