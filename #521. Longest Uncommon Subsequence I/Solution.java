@@ -1,0 +1,21 @@
+/*
+ * @Author: Goog Tech
+ * @Date: 2020-08-25 10:08:18
+ * @LastEditTime: 2020-08-25 10:08:38
+ * @Description: https://leetcode-cn.com/problems/longest-uncommon-subsequence-i/
+ * @FilePath: \leetcode-googtech\#521. Longest Uncommon Subsequence I\Solution.java
+ * @WebSite: https://algorithm.show/
+ */
+
+class Solution {
+
+    /*
+     * 解题思路如下:
+     * 1. 若字符串 a 与 b 相等则说明没有特殊子序列,返回 -1 即可
+     * 2. 若字符串 a 与 b 的长度不同等则说明长的字符串一定不会是短字符串的子序列,因此可以将长字符串看作是特殊子序列
+     * 3. 若字符串 a 与 b 的长度相等则说明其中一个字符串不会是另一个字符串的子序列,因此可以将任意一个字符串看作特殊子序列
+     */
+    public int findLUSlength(String a, String b) {
+        return  a.equals(b) ? -1 : a.length() > b.length() ? a.length() : b.length();
+    }
+}
