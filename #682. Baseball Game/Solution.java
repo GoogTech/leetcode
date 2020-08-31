@@ -1,0 +1,39 @@
+/*
+ * @Author: Goog Tech
+ * @Date: 2020-08-31 17:36:46
+ * @LastEditTime: 2020-08-31 17:37:00
+ * @Description: https://leetcode-cn.com/problems/baseball-game/
+ * @FilePath: \leetcode-googtech\#682. Baseball Game\Solution.java
+ * @WebSite: https://algorithm.show/
+ */
+
+class Solution {
+    public int calPoints(String[] ops) {
+        // 初始化辅助栈
+        Stack<Integer> stack = new Stack<>();
+        // 初始化栈顶,临时变量以及总分数值
+        int top = 0, temp = 0, sum = 0;
+        // 逐个遍历字符串数组中的符号
+        for(String str : ops) {
+            // 获得的最后一个有效回合的分数是无效的,即删除栈顶元素
+            if(str.equals("C")) {
+                sum -= stack.pop();
+            // 本轮获得的得分是前一轮有效回合得分的两倍,即获取栈顶元素并将其乘以二后压入栈中
+            }else if(str.equals("D")) {
+                sum += stack.push(2 * stack.peek());
+            // 本轮获得的得分是前两轮有效回合得分的总和,即获取栈顶及栈顶第二个元素,并将其相加后压入栈中
+            }else if(str.equals("+")) {
+                top = stack.pop();
+                temp = top + stack.peek();
+                stack.push(top);
+                sum += stack.push(temp);
+            // 表示本轮中获得的积分数,即直接将其压入栈中
+            }else {
+                stack.push(Integer.parseInt(str));
+                sum += Integer.parseInt(str);
+            }
+        }
+        // 返回总分数值
+        return sum;
+    }
+}
