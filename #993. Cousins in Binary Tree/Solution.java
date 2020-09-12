@@ -1,0 +1,52 @@
+/*
+ * @Author: Goog Tech
+ * @Date: 2020-09-12 11:36:11
+ * @LastEditTime: 2020-09-12 11:36:33
+ * @Description: https://leetcode-cn.com/problems/cousins-in-binary-tree/
+ * @FilePath: \leetcode-googtech\#993. Cousins in Binary Tree\Solution.java
+ * @WebSite: https://algorithm.show/
+ */
+
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+
+class Solution {
+    Map<Integer, Integer> depth;
+    Map<Integer, TreeNode> parent;
+
+    // 解题思路: 利用深度优先搜索及递归求出每一个节点的深度与父节点
+    public boolean isCousins(TreeNode root, int x, int y) {
+        depth = new HashMap();
+        parent = new HashMap();
+        // 传入根节点及其父节点(null)
+        dfs(root, null);
+        // 当且仅当一对节点深度相同而父节点不同时,它们是堂兄弟节点.
+        return (depth.get(x) == depth.get(y) && parent.get(x) != parent.get(y));
+    }
+
+    public void dfs(TreeNode node, TreeNode par) {
+        // 判断当前节点,即上一个节点的孩子节点是否为空
+        if(node != null) {
+            // 对于每一个节点 node,它的父亲为 par,深度为 d,我们将其记录到 HashMap 中
+            // 即令 parent[node.val] = par, depth[node.val] = d
+            depth.put(node.val, par != null ? 1 + depth.get(par.val) : 0);
+            parent.put(node.val, par);
+            // 传入当前节点的孩子节点及其父节点,即继续深度遍历
+            dfs(node.left, node);
+            dfs(node.right, node);
+        }
+    }
+}
