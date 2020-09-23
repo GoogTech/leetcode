@@ -1,0 +1,27 @@
+/*
+ * @Author: Goog Tech
+ * @Date: 2020-09-23 21:58:42
+ * @LastEditTime: 2020-09-23 21:59:04
+ * @Description: https://leetcode-cn.com/problems/the-masseuse-lcci/
+ * @FilePath: \leetcode-googtech\面试题17\#16. 按摩师\Solution.java
+ * @WebSite: https://algorithm.show/
+ */
+
+class Solution {
+    // DP : 动态规划
+    // 设第 n 号的最大时长为 dp[n],解题思路如下:
+    // 1. 若选择第 n 号的话,由于不能接受相邻的预约,所以 dp[n] = dp[n - 2] + nums[n] (即总时长等于 n - 2 号的总时长 + 第 n 号的时长)
+    // 2. 反之若不选择 n 号的话,那么 dp[n] = dp[n - 1](即总时长为 n - 1 号的最大时长)
+    public int massage(int[] nums) {
+        int n = nums.length;
+        if(n == 0) return 0;
+        if(n == 1) return nums[0];
+        int[] dp = new int[n];
+        dp[0] = nums[0];
+        dp[1] = Math.max(nums[0], nums[1]);
+        for(int i = 2; i < n; i++) {
+            dp[i] = Math.max(dp[i - 1], dp[i - 2] + nums[i]);
+        }
+        return dp[n - 1];
+    }
+}
