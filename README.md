@@ -35,6 +35,31 @@
 -->
 
 
+## Tags
+[![tag](https://img.shields.io/badge/-数组-red?style=for-the-badge&logo=LeetCode&logoColor=white)](https://algorithm.show/)
+[![tag](https://img.shields.io/badge/-字符串-yellow?style=for-the-badge&logo=LeetCode&logoColor=white)](https://algorithm.show/)
+[![tag](https://img.shields.io/badge/-递归-blue?style=for-the-badge&logo=LeetCode&logoColor=white)](https://algorithm.show/)
+
+[![tag](https://img.shields.io/badge/-栈-green?style=for-the-badge&logo=LeetCode&logoColor=white)](https://algorithm.show/)
+[![tag](https://img.shields.io/badge/-链表-pink?style=for-the-badge&logo=LeetCode&logoColor=white)](https://algorithm.show/)
+[![tag](https://img.shields.io/badge/-哈希表-brown?style=for-the-badge&logo=LeetCode&logoColor=white)](https://algorithm.show/)
+[![tag](https://img.shields.io/badge/-贪心算法-purple?style=for-the-badge&logo=LeetCode&logoColor=white)](https://algorithm.show/)
+
+[![tag](https://img.shields.io/badge/-双指针法-orange?style=for-the-badge&logo=LeetCode&logoColor=white)](https://algorithm.show/)
+[![tag](https://img.shields.io/badge/-树-cyan?style=for-the-badge&logo=LeetCode&logoColor=white)](https://algorithm.show/)
+[![tag](https://img.shields.io/badge/-图与搜索-gray?style=for-the-badge&logo=LeetCode&logoColor=white)](https://algorithm.show/)
+[![tag](https://img.shields.io/badge/-二分查找-red?style=for-the-badge&logo=LeetCode&logoColor=white)](https://algorithm.show/)
+[![tag](https://img.shields.io/badge/-二进制运算-yellow?style=for-the-badge&logo=LeetCode&logoColor=white)](https://algorithm.show/)
+
+[![tag](https://img.shields.io/badge/-数与位-blue?style=for-the-badge&logo=LeetCode&logoColor=white)](https://algorithm.show/)
+[![tag](https://img.shields.io/badge/-动态规划-green?style=for-the-badge&logo=LeetCode&logoColor=white)](https://algorithm.show/)
+[![tag](https://img.shields.io/badge/-队列-pink?style=for-the-badge&logo=LeetCode&logoColor=white)](https://algorithm.show/)
+[![tag](https://img.shields.io/badge/-堆-brown?style=for-the-badge&logo=LeetCode&logoColor=white)](https://algorithm.show/)
+[![tag](https://img.shields.io/badge/-排序算法-purple?style=for-the-badge&logo=LeetCode&logoColor=white)](https://algorithm.show/)
+[![tag](https://img.shields.io/badge/-深度优先搜索-orange?style=for-the-badge&logo=LeetCode&logoColor=white)](https://algorithm.show/)
+[![tag](https://img.shields.io/badge/-广度优先搜索-cyan?style=for-the-badge&logo=LeetCode&logoColor=white)](https://algorithm.show/)
+
+
 ## Summary
 
 * [简介](docs/README.md)
