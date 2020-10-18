@@ -33,8 +33,8 @@
             "elements": [".gitbook-link"]
         },
         "insert-logo": {
-            "url": "https://yubuntu0109.github.io/2020/06/21/image-repo/leetcode-googtech-logo.PNG",
-            "style": "background: none; max-height: 45px; min-height: 30px"
+            "url": "https://algorithm.show/leetcode-googtech-logo.PNG",
+            "style": "background: #fafafa; max-height: 45px; min-height: 30px"
         },
         "tbfed-pagefooter": {
             "copyright":"Copyright &copy 黄宇辉 2020",
