@@ -1,5 +1,6 @@
 {
     "plugins": [
+        "theme-comscore",
         "code",
         "github",
         "-highlight", 
