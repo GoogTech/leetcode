@@ -2,7 +2,6 @@
 	<a href="http://algorithm.show/"><img src="https://yubuntu0109.github.io/2020/06/21/image-repo/leetcode-googtech-logo.PNG" width="360"></a>
 
 <p align="center">
-   <img height="50px" src="https://cdn.svgporn.com/logos/google-icon.svg">
    <img height="50px" src="https://cdn.svgporn.com/logos/gopher.svg">
    <img height="50px" src="https://cdn.svgporn.com/logos/python.svg">
    <img height="50px" src="https://cdn.svgporn.com/logos/java.svg">
