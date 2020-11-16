@@ -2,9 +2,18 @@
 	<a href="http://algorithm.show/"><img src="https://yubuntu0109.github.io/2020/06/21/image-repo/leetcode-googtech-logo.PNG" width="360"></a>
 
 <p align="center">
-    <img src="https://yubuntu0109.github.io/2020/06/21/image-repo/wechat-GoogTech.png" width="360">
-    </br>
-    <a href="https://www.codacy.com/manual/gentleman_0109/leetcode-googtech?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=YUbuntu0109/leetcode-googtech&amp;utm_campaign=Badge_Grade">
+   <img height="50px" src="https://cdn.svgporn.com/logos/google-icon.svg">
+   <img height="50px" src="https://cdn.svgporn.com/logos/gopher.svg">
+   <img height="50px" src="https://cdn.svgporn.com/logos/python.svg">
+   <img height="50px" src="https://cdn.svgporn.com/logos/java.svg">
+   <img height="50px" src="https://cdn.svgporn.com/logos/c-plusplus.svg">
+   <img height="50px" src="https://cdn.svgporn.com/logos/javascript.svg">
+   </br>	
+
+   <img src="https://yubuntu0109.github.io/2020/06/21/image-repo/wechat-GoogTech.png" width="360">
+   </br>
+    
+   <a href="https://www.codacy.com/manual/gentleman_0109/leetcode-googtech?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=YUbuntu0109/leetcode-googtech&amp;utm_campaign=Badge_Grade">
         <img src="https://app.codacy.com/project/badge/Grade/4d3b1197a1ff458dab972933dcf0a857"/>
     </a>
     <a rel="travis-ci" href="https://travis-ci.com/github/YUbuntu0109/leetcode-googtech">
