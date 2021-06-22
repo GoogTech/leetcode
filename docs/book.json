@@ -1,5 +1,6 @@
 {
     "plugins": [
+        "page-toc-button",
         "page-treeview",
         "theme-comscore",
         "code",
@@ -22,6 +23,10 @@
         "-sharing", "sharing-plus"
     ],
     "pluginsConfig": {
+        "page-toc-button": {
+            "maxTocDepth": 2,
+            "minTocSize": 2
+        },
         "page-treeview": {
             "copyright": "Copyright &#169; aleen42",
             "minHeaderCount": "2",
