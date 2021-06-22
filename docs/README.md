@@ -59,9 +59,6 @@
 [![tag](https://img.shields.io/badge/-广度优先搜索-cyan?style=for-the-badge&logo=LeetCode&logoColor=white)](https://algorithm.show/)
 
 
-> ☕ 或许在刷题之前你应该先去学习下数据结构哈~ 不嫌弃的话可以参考我的学习笔记，还望指教哟 : *https://course.studynote.life/数据结构/*
-
-
 <!-- How To Use Gitalk : https://www.cnblogs.com/snowdreams1006/p/10662585.html -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
 <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
