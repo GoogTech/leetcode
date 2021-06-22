@@ -1,5 +1,6 @@
 {
     "plugins": [
+        "page-treeview",
         "theme-comscore",
         "code",
         "github",
@@ -21,6 +22,11 @@
         "-sharing", "sharing-plus"
     ],
     "pluginsConfig": {
+        "page-treeview": {
+            "copyright": "Copyright &#169; aleen42",
+            "minHeaderCount": "2",
+            "minHeaderDeep": "2"
+        },
         "favicon": "favicon.ico",
         "github": {
             "url": "https://github.com/YUbuntu0109/leetcode-googtech"
@@ -37,7 +43,7 @@
             "style": "background: #fafafa; max-height: 45px; min-height: 30px"
         },
         "tbfed-pagefooter": {
-            "copyright":"Copyright &copy 黄宇辉 2020",
+            "copyright":"Copyright &copy GoogTech 2021",
             "modify_label": "笔记的最近一次更新时间为 : ",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
