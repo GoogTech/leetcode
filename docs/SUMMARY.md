@@ -231,4 +231,3 @@
     * [68-II.二叉树的最近公共祖先](剑指Offer/68-II.二叉树的最近公共祖先/68-II.二叉树的最近公共祖先.md)
 
 * [C++ 极速入门](cpp-tutorial/README.md)
-    * [两小时从C过渡到C++](cpp-tutorial/c-to-cpp-in-two-hours/c-to-cpp-in-two-hours.html)
