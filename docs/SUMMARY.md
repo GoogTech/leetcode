@@ -230,6 +230,5 @@
     * [68-I.二叉搜索树的最近公共祖先](剑指Offer/68-I.二叉搜索树的最近公共祖先/68-I.二叉搜索树的最近公共祖先.md)
     * [68-II.二叉树的最近公共祖先](剑指Offer/68-II.二叉树的最近公共祖先/68-II.二叉树的最近公共祖先.md)
 
-* [C++ 极速入门](C++极速入门/README.md)
-    * [两小时从C过渡到C++](C++极速入门/两小时从C过渡到C++/两小时从C过渡到C++.md)
-    * [练习题目](C++极速入门/练习题目/练习题目.md)
+* [C++ 极速入门](cpp-tutorial/README.md)
+    * [两小时从C过渡到C++](cpp-tutorial/c-to-cpp-in-two-hours/c-to-cpp-in-two-hours.html)
