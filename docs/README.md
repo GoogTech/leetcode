@@ -14,8 +14,8 @@
    <a href="https://www.codacy.com/manual/gentleman_0109/leetcode-googtech?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=YUbuntu0109/leetcode-googtech&amp;utm_campaign=Badge_Grade">
         <img src="https://app.codacy.com/project/badge/Grade/4d3b1197a1ff458dab972933dcf0a857"/>
    </a>
-   <a rel="travis-ci" href="https://travis-ci.com/github/YUbuntu0109/leetcode-googtech">
-	<img src="https://travis-ci.com/YUbuntu0109/leetcode-googtech.svg?branch=master"></img>
+   <a rel="travis-ci" href="https://travis-ci.com/github/GoogTech/leetcode-googtech">
+	<img src="https://travis-ci.com/GoogTech/leetcode-googtech.svg?branch=master"></img>
    </a>
    <img src="https://img.shields.io/github/commit-activity/m/YUbuntu0109/leetcode-googtech?color=ff69b4"></img>
    <img src="https://img.shields.io/github/license/YUbuntu0109/leetcode-googtech.svg"></img>
