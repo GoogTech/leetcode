@@ -1,5 +1,5 @@
 <p align="center">
-	<a href="http://algorithm.show/"><img src="https://algorithm.show/leetcode-googtech-logo.PNG" width="360"></a>
+	<a href="https://algorithm.goog.tech/"><img src="https://algorithm.goog.tech/leetcode-googtech-logo.PNG" width="360"></a>
 
 <p align="center">
    <img height="50px" src="https://cdn.svgporn.com/logos/gopher.svg">
@@ -9,7 +9,7 @@
    <img height="50px" src="https://cdn.svgporn.com/logos/javascript.svg">
    </br>	
 	
-   <img src="https://algorithm.show/wechat-GoogTech.png" width="360">
+<!-- <img src="https://algorithm.goog.tech/wechat-GoogTech.png" width="360"> -->
    </br>
    <a href="https://www.codacy.com/manual/gentleman_0109/leetcode-googtech?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=YUbuntu0109/leetcode-googtech&amp;utm_campaign=Badge_Grade">
         <img src="https://app.codacy.com/project/badge/Grade/4d3b1197a1ff458dab972933dcf0a857"/>
@@ -30,7 +30,7 @@
 <p align="center">
     <a style="font-size:30px" href="https://space.bilibili.com/364361791/channel/detail?cid=141283">
         😎 大三狗带你从零开始刷LeetCode !
-        <img src="https://algorithm.show/cover-of-leetcode-vlog.png">
+        <img src="https://algorithm.goog.tech/cover-of-leetcode-vlog.png">
     </a>
 </p>
 
