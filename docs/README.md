@@ -7,9 +7,11 @@
    <img height="50px" src="https://cdn.svgporn.com/logos/java.svg">
    <img height="50px" src="https://cdn.svgporn.com/logos/c-plusplus.svg">
    <img height="50px" src="https://cdn.svgporn.com/logos/javascript.svg">
-   </br>	
-	
-<!-- <img src="https://algorithm.goog.tech/wechat-GoogTech.png" width="360"> -->
+   </br>
+   <!-- <img src="https://algorithm.goog.tech/wechat-GoogTech.png" width="360"> -->
+   </br>
+   <img src="http://profile-counter.glitch.me/GoogTech/count.svg" width="360">
+   </br>
    </br>
    <a href="https://www.codacy.com/manual/gentleman_0109/leetcode-googtech?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=YUbuntu0109/leetcode-googtech&amp;utm_campaign=Badge_Grade">
         <img src="https://app.codacy.com/project/badge/Grade/4d3b1197a1ff458dab972933dcf0a857"/>
