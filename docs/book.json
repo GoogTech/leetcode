@@ -44,7 +44,7 @@
             "elements": [".gitbook-link"]
         },
         "insert-logo": {
-            "url": "https://algorithm.goog.tech/leetcode-googtech-logo.PNG",
+            "url": "https://leetcode.goog.tech/leetcode-googtech-logo.PNG",
             "style": "background: #fafafa; max-height: 45px; min-height: 30px"
         },
         "tbfed-pagefooter": {
