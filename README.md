@@ -7,9 +7,10 @@
    <img height="50px" src="https://cdn.svgporn.com/logos/java.svg">
    <img height="50px" src="https://cdn.svgporn.com/logos/c-plusplus.svg">
    <img height="50px" src="https://cdn.svgporn.com/logos/javascript.svg">
-   </br>	
-
-   <!-- <img src="https://yubuntu0109.github.io/2020/06/21/image-repo/wechat-GoogTech.png" width="360"> -->
+   </br>
+   </br>
+   <img src="http://profile-counter.glitch.me/GoogTech/count.svg" width="360">
+   </br>
    </br>
     
    <a href="https://www.codacy.com/manual/gentleman_0109/leetcode-googtech?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=YUbuntu0109/leetcode-googtech&amp;utm_campaign=Badge_Grade">
@@ -298,7 +299,3 @@
     * [58-I.翻转单词顺序](docs/剑指Offer/58-I.翻转单词顺序/58-I.翻转单词顺序.md)
     * [58-II.左旋转字符串](docs/剑指Offer/58-II.左旋转字符串/58-II.左旋转字符串.md)
     * [64.求1+2+…+n](docs/剑指Offer/64.求1+2+…+n/64.求1+2+…+n.md)
-
-
-## Visitors
-![](http://profile-counter.glitch.me/GoogTech/count.svg)
