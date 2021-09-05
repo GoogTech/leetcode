@@ -1,5 +1,5 @@
 <p align="center">
-	<a href="https://algorithm.goog.tech/"><img src="https://algorithm.goog.tech/leetcode-googtech-logo.PNG" width="360"></a>
+	<a href="https://leetcode.goog.tech/"><img src="https://leetcode.goog.tech/leetcode-googtech-logo.PNG" width="360"></a>
 
 <p align="center">
    <img height="50px" src="https://cdn.svgporn.com/logos/gopher.svg">
@@ -32,7 +32,7 @@
 <p align="center">
     <a style="font-size:30px" href="https://space.bilibili.com/364361791/channel/detail?cid=141283">
         😎 大三狗带你从零开始刷LeetCode !
-        <img src="https://algorithm.goog.tech/cover-of-leetcode-vlog.png">
+        <img src="https://leetcode.goog.tech/cover-of-leetcode-vlog.png">
     </a>
 </p>
 
