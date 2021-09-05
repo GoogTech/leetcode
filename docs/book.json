@@ -34,22 +34,22 @@
         },
         "favicon": "favicon.ico",
         "github": {
-            "url": "https://github.com/YUbuntu0109/leetcode-googtech"
+            "url": "https://github.com/GoogTech/leetcode-googtech"
         },
         "edit-link": {
-            "base": "//github.com/YUbuntu0109/leetcode-googtech/edit/master/docs",
+            "base": "//github.com/GoogTech/leetcode-googtech/edit/master/docs",
             "label": "edit"
         },
         "hide-element": {
             "elements": [".gitbook-link"]
         },
         "insert-logo": {
-            "url": "https://algorithm.show/leetcode-googtech-logo.PNG",
+            "url": "https://algorithm.goog.tech/leetcode-googtech-logo.PNG",
             "style": "background: #fafafa; max-height: 45px; min-height: 30px"
         },
         "tbfed-pagefooter": {
             "copyright":"Copyright &copy GoogTech 2021",
-            "modify_label": "笔记的最近一次更新时间为 : ",
+            "modify_label": "Last update time : ",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
         "prism": {
