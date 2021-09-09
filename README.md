@@ -9,7 +9,7 @@
    <img height="50px" src="https://cdn.svgporn.com/logos/javascript.svg">
    </br>
    </br>
-   <img src="http://profile-counter.glitch.me/GoogTech/count.svg" width="360">
+   <img src="http://profile-counter.glitch.me/leetcode.goog.tech/count.svg" width="360">
    </br>
    </br>
     
