@@ -10,7 +10,7 @@
    </br>
    <!-- <img src="https://algorithm.goog.tech/wechat-GoogTech.png" width="360"> -->
    </br>
-   <img src="http://profile-counter.glitch.me/GoogTech/count.svg" width="360">
+   <img src="http://profile-counter.glitch.me/leetcode.goog.tech/count.svg" width="360">
    </br>
    </br>
    <a href="https://www.codacy.com/manual/gentleman_0109/leetcode-googtech?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=YUbuntu0109/leetcode-googtech&amp;utm_campaign=Badge_Grade">
