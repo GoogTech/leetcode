@@ -32,7 +32,7 @@
 <p align="center">
     <a style="font-size:30px" href="https://space.bilibili.com/364361791/channel/detail?cid=141283">
         😎 大三狗带你从零开始刷LeetCode !
-        <img src="https://leetcode.goog.tech/cover-of-leetcode-vlog.png">
+        <img src="https://goog.tech/leetcode/cover-of-leetcode-vlog.png">
     </a>
 </p>
 
