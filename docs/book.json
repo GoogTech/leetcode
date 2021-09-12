@@ -34,17 +34,17 @@
         },
         "favicon": "favicon.ico",
         "github": {
-            "url": "https://github.com/GoogTech/leetcode-googtech"
+            "url": "https://github.com/GoogTech/leetcode"
         },
         "edit-link": {
-            "base": "//github.com/GoogTech/leetcode-googtech/edit/master/docs",
+            "base": "//github.com/GoogTech/leetcode/edit/master/docs",
             "label": "edit"
         },
         "hide-element": {
             "elements": [".gitbook-link"]
         },
         "insert-logo": {
-            "url": "https://leetcode.goog.tech/leetcode-googtech-logo.PNG",
+            "url": "https://goog.tech/leetcode/leetcode-googtech-logo.PNG",
             "style": "background: #fafafa; max-height: 45px; min-height: 30px"
         },
         "tbfed-pagefooter": {
