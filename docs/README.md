@@ -1,5 +1,5 @@
 <p align="center">
-	<a href="https://leetcode.goog.tech/"><img src="https://leetcode.goog.tech/leetcode-googtech-logo.PNG" width="360"></a>
+	<a href="https://leetcode.goog.tech/"><img src="https://goog.tech/leetcode/leetcode-googtech-logo.PNG" width="360"></a>
 
 <p align="center">
    <img height="50px" src="https://cdn.svgporn.com/logos/gopher.svg">
