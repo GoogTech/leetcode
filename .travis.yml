@@ -3,12 +3,12 @@ node_js:
   - "10"
 cache: npm
 
-notifications:
-  email:
-    recipients:
-      - gentleman_0109@outlook.com # 设置通知邮件
-    on_success: change
-    on_failure: always
+# notifications:
+#   email:
+#     recipients:
+#       - hi@goog.tech # 设置通知邮件
+#     on_success: change
+#     on_failure: always
 
 install:
   - npm install -g gitbook-cli
@@ -35,7 +35,7 @@ branches:
 
 env:
   global:
-    - GH_REF: github.com/YUbuntu0109/leetcode-googtech.git # 设置 github 地址
+    - GH_REF: github.com/GoogTech/leetcode.git # 设置 github 地址
 
 
 #---------------------------------------------------------------------------------------------------------
