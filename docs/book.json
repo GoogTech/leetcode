@@ -1,4 +1,8 @@
 {
+    "title": "GoogTech | LeetCode",
+    "author": "GoogTech",
+    "description": "GoogTech | Learning note about data structures, algorithms, and leetcode problems",
+
     "plugins": [
         "page-toc-button",
         "page-treeview",
